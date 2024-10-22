@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character encoding and viewport settings for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix-Clone</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome link for icons (used for the FAQ section) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header section that contains the logo, sign-in button, and main content -->
+    <header>
+        <div class="header">
+            <div class="header-box">
+                <!-- Empty div, might be used for future design or positioning -->
+            </div>
+
+            <!-- Navigation bar with logo and sign-in button -->
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <!-- Logo image for Netflix clone -->
+                        <img src="/Assets/images/logo.svg" alt="logo">
+                    </div>
+
+                    <div class="signin">
+                        <button id="sign-in">Sign in</button>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main content section with call-to-action text and email input -->
+            <div class="content-box">
+                <div class="content">
+                    <h1>Unlimited movies, TV shows, and more</h1>
+                    <p>Starts at Rs 250. Cancel anytime.</p>
+
+                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                    <div class="email-for-start">
+                        <input id="inemail" type="email" placeholder="Email">
+                        <button id="startdebtn">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- A small divider section for visual separation -->
+    <div class="sepration" style="height: 10px; background-color: gray;"></div>
+
+    <!-- Main section that shows trending content and movie posters -->
+    <main>
+        <div class="select-section">
+            <h2>Trending Now</h2>
+            <!-- Dropdown menus for selecting region and movie category -->
+            <select>
+                <option value="">Pakistan</option>
+            </select>
+            <select>
+                <option value="">Movies</option>
+            </select>
+        </div>
+
+        <!-- Movie posters section displaying multiple posters -->
+        <div class="movies-section">
+            <div class="poster-box">
+                <img src="/Assets/images/poster1.webp" alt="poster1" width="100%" height="100%">
+            </div>
+            <div class="poster-box">
+                <img src="/Assets/images/poster2.webp" alt="poster2" width="100%" height="100%">
+            </div>
+            <div class="poster-box">
+                <img src="/Assets/images/poster3.webp" alt="poster3" width="100%" height="100%">
+            </div>
+            <div class="poster-box">
+                <img src="/Assets/images/poster4.webp" alt="poster4" width="100%" height="100%">
+            </div>
+        </div>
+    </main>
+
+    <!-- A section that highlights the benefits of joining Netflix -->
+    <section>
+        <div class="more-reason-to-join">
+            <p>More Reasons To Join</p>
+            <div class="reasons">
+                <!-- Repeated reason boxes that list the benefits -->
+                <div class="reason-boxes">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <!-- Additional reason boxes (repeated content for now) -->
+                <div class="reason-boxes">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="reason-boxes">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <div class="reason-boxes">
+                    <h3>Enjoy on your TV</h3>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Questions (FAQ) section with collapsible options -->
+    <section>
+        <div class="ask-questions">
+            <p>Frequently Asked Questions</p>
+            <div class="q-boxes">
+                <div class="q-box">
+                    <!-- FAQ question with a plus icon for expand/collapse functionality -->
+                    <p> What is Netflix?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="q-box">
+                    <p>How much does Netflix cost?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="q-box">
+                    <p>Where can I watch?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="q-box">
+                    <p>How do I cancel?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="q-box">
+                    <p>What can I watch on Netflix?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="q-box">
+                    <p>Is Netflix good for kids?</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section with links to various Netflix pages -->
+    <footer>
+        <h3>Questions & Contact Us</h3>
+        <div class="foot-panel">
+            <!-- List of helpful links grouped in unordered lists -->
+            <ul>
+                <a href="">FAQ</a>
+                <a href="">Help Center</a>
+                <a href="">Account</a>
+                <a href="">Media Center</a>
+            </ul>
+
+            <ul>
+                <a href="">Investor Relations</a>
+                <a href="">Jobs</a>
+                <a href="">Ways to Watch</a>
+                <a href="">Terms of Use</a>
+            </ul>
+
+            <ul>
+                <a href="">Privacy</a>
+                <a href="">Cookie Preferences</a>
+                <a href="">Corporate Information</a>
+                <a href="">Contact Us</a>
+            </ul>
+
+            <ul>
+                <a href="">FAQ</a>
+                <a href="">Help Center</a>
+                <a href="">Account</a>
+                <a href="">Media Center</a>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
